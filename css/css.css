@@ -21,20 +21,26 @@ body {
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
 
 .bg-gradient-2 {
-  background: #00C9FF;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #92FE9D, #00C9FF);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #92FE9D, #00C9FF);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ }
+  background-image: url("https://source.unsplash.com/random/1000x1000"); }
 
 .arrow {
-  width: 4%;
-  min-width: 4%;
+  width: 3%;
+  min-width: 2%;
+  max-width: 6%;
   position: absolute;
   top: 92%;
   left: 90%;
   opacity: 0.5; }
+
+.slider-paragraph {
+  position: absolute;
+  top: 10%;
+  left: 10%; }
+
+code {
+  border-radius: .4rem;
+  font-size: 16px;
+  color: white; }
 
 h1 {
   font-size: 46px;
