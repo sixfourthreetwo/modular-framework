@@ -42,6 +42,17 @@ code {
   font-size: 16px;
   color: white; }
 
+.box {
+  background-color: #f4f4f4;
+  padding: 10px;
+  color: #C96760; }
+
+.push {
+  margin-bottom: 40px; }
+
+.slider-copy-formatting {
+  margin-left: 30px; }
+
 h1 {
   font-size: 46px;
   line-height: 52px; }
@@ -84,6 +95,9 @@ p {
 
 .u {
   text-decoration: underline; }
+
+.up {
+  text-transform: uppercase; }
 
 .container {
   position: relative;
@@ -279,7 +293,7 @@ p {
   width: 100%;
   height: auto;
   margin: 30px 0;
-  border-radius: 16px;
+  border-radius: 8px;
   border: solid 1px #CFCFCF;
   background: #FBFBFB;
   box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
@@ -289,37 +303,21 @@ p {
 .card a {
   text-decoration: none; }
 
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
-  transition: all 0.3s ease-in-out; }
-
-.card:active {
-  transform: translateY(2px);
-  box-shadow: 0 18px 35px rgba(50, 50, 93, 0.2), 0 8px 15px rgba(0, 0, 0, 0.07);
-  transition: all 0.3s ease-in-out; }
-
 .card-copy {
   padding: 30px; }
 
 .card-header {
-  border-radius: 16px 16px 0 0;
-  height: 40px;
+  border-radius: 8px 8px 0 0;
   margin: 0 30px; }
-
-.card-mid {
-  height: 250px; }
 
 .card-footer {
   background-color: #F4F4F4;
-  border-radius: 0 0 16px 16px;
-  height: 60px; }
+  border-radius: 0 0 8px 8px;
+  height: 60px;
+  transition: all 0.3s ease-in-out; }
 
-.card-footer-button {
-  display: inline-block; }
-
-.card-footer-button:hover {
-  color: #00184F; }
+.card-footer:hover {
+  background-color: #E4E4E4; }
 
 /* Backgrounds */
 .bg-blue {
@@ -329,7 +327,7 @@ p {
   background-color: #00184F; }
 
 .bg-red {
-  background-color: #C85177; }
+  background-color: #C96760; }
 
 .bg-white {
   background-color: #FFFFFF; }
@@ -348,7 +346,7 @@ p {
   color: #00184F; }
 
 .red {
-  color: #C85177; }
+  color: #C96760; }
 
 .white {
   color: #FFFFFF; }
