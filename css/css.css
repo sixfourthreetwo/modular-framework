@@ -32,6 +32,20 @@ body {
   left: 90%;
   opacity: 0.5; }
 
+.arrow-small {
+  width: 2%;
+  min-width: 2%;
+  max-width: 6%;
+  opacity: 0.5;
+  margin-left: 540px; }
+
+.arrow-back {
+  width: 2%;
+  min-width: 2%;
+  max-width: 6%;
+  opacity: 0.5;
+  transform: rotate(180deg); }
+
 .slider-paragraph {
   position: absolute;
   top: 10%;
@@ -50,8 +64,14 @@ code {
 .push {
   margin-bottom: 40px; }
 
-.slider-copy-formatting {
-  margin-left: 30px; }
+.div-me-up {
+  display: flex;
+  justify-content: space-around;
+  align-content: center; }
+
+.row-border {
+  border: solid 1px #CFCFCF;
+  padding: 10px; }
 
 h1 {
   font-size: 46px;
