@@ -61,8 +61,30 @@ code {
   padding: 10px;
   color: #C96760; }
 
+.layout-1 > .card {
+  background: #f4f4f4;
+  transition: all 0.3s ease-in-out;
+  height: 300px; }
+
+.layout-1 > .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 35px rgba(50, 50, 93, 0.1), 0 8px 15px rgba(0, 0, 0, 0.07);
+  transition: all 0.3s ease-in-out; }
+
+.push-down {
+  margin-top: 20px; }
+
 .push {
   margin-bottom: 40px; }
+
+.buffer-sm {
+  margin: 60px 0; }
+
+.buffer-lg {
+  margin: 120px 0; }
+
+.card-content {
+  padding: 20px; }
 
 .div-me-up {
   display: flex;
@@ -72,6 +94,24 @@ code {
 .row-border {
   border: solid 1px #CFCFCF;
   padding: 10px; }
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite; }
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0); }
+  40% {
+    transform: translateX(-10px); }
+  60% {
+    transform: translateX(-5px); } }
+.layout-1-copy {
+  text-transform: uppercase;
+  font-weight: 800;
+  opacity: 0.3;
+  font-size: 14px; }
 
 h1 {
   font-size: 46px;
@@ -307,37 +347,6 @@ p {
   justify-content: space-between;
   clear: both;
   flex-direction: row; }
-
-/** Cards **/
-.card {
-  width: 100%;
-  height: auto;
-  margin: 30px 0;
-  border-radius: 8px;
-  border: solid 1px #CFCFCF;
-  background: #FBFBFB;
-  box-shadow: 0 4px 14px 0 rgba(0, 0, 0, 0.1);
-  color: black;
-  transition: all 0.3s ease-in-out; }
-
-.card a {
-  text-decoration: none; }
-
-.card-copy {
-  padding: 30px; }
-
-.card-header {
-  border-radius: 8px 8px 0 0;
-  margin: 0 30px; }
-
-.card-footer {
-  background-color: #F4F4F4;
-  border-radius: 0 0 8px 8px;
-  height: 60px;
-  transition: all 0.3s ease-in-out; }
-
-.card-footer:hover {
-  background-color: #E4E4E4; }
 
 /* Backgrounds */
 .bg-blue {

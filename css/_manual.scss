@@ -77,8 +77,35 @@ pre {
   color: $red;
 }
 
+.layout-1 > .card {
+  background: #f4f4f4;
+  transition: all 0.3s ease-in-out;
+  height: 300px;
+}
+
+.layout-1 > .card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 18px 35px rgba(50, 50, 93, .1), 0 8px 15px rgba(0, 0, 0, .07);
+  transition: all 0.3s ease-in-out;
+}
+
+.push-down {
+  margin-top: 20px;
+}
 .push {
   margin-bottom: 40px;
+}
+
+.buffer-sm {
+  margin: 60px 0;
+}
+
+.buffer-lg {
+  margin: 120px 0;
+}
+
+.card-content {
+  padding: 20px;
 }
 
 .div-me-up {
@@ -90,4 +117,29 @@ pre {
 .row-border{
   border: solid 1px $border;
   padding: 10px;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateX(0);
+  }
+  40% {
+    transform: translateX(-10px);
+  }
+  60% {
+    transform: translateX(-5px);
+  }
+}
+
+.layout-1-copy {
+  text-transform: uppercase;
+  font-weight: 800;
+  opacity:0.3;
+  font-size: 14px;
 }
