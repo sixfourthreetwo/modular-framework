@@ -10,25 +10,25 @@
 	<nav class="nav-bg">
 		<div class="container">
 			<div class="row">
-				<div class="col-2 center white">Home</div>
-				<div class="col-2 center white">Home</div>
+				<div class="col-2 center white"></div>
+				<div class="col-2 center white"></div>
 				<div class="col-4 center">
-					<img src="img/logo.cvg">
 				</div>
-				<div class="col-2 center white">Home</div>
-				<div class="col-2 center white">Home</div>
+				<div class="col-4 white">Created by <a class="white" href="http://www.sixtyfourthirtytwo.com">sixtyfour thirtytwo</a> </div>
 			</div>
 		</div>
-	</nav>
+
 	<section class="container">
 		<div class="row">
-			<div class="col-12 eb text-center lg-space">
-				<h1 class="super red">Zero</h1>
-				<h4>The Modular, Flexbox Framework.</h4>
+			<div class="col-12 buffer-lg">
+				<h1 class="white">Zero</h1>
+				<h4 class="white">A SASS & Flexbox Framework.</h4>
+				<p class="white">Created as a personal learning tool & a personal framework for future web projects.</p>
+				<a class="white" href="https://github.com/sixfourthreetwo/zero-css-framework" target="_blank">source</a>
 			</div>
 		</div>
 	</section>
-
+</nav>
 </header>
 
 <! -- Grid System -->
@@ -38,7 +38,7 @@
 		<div class="row">
 			<div class="col-6">
 				<h2 class="up red">12 Column Grid</h2>
-				<p class="push">The standard in every framework, an easy to use, 12 column grid. <br>Simply add the
+				<p class="push">The standard in every framework, an easy to use, 12 column grid. Simply add the
 					class col-x (x =
 					between 1 - 12) </p>
 				<code class="black code-padding">
@@ -152,16 +152,84 @@
 	</div>
 </section>
 
-<! -- Horizontal Slider -->
+<!-- Type -->
+<section class="buffer-sm">
+	<div class="container buffer-sm">
+		<div class="row">
+			<div class="col-6">
+				<h2 class="up red">Type</h2>
+				<p class="">The type is very simple, h1 starting at 46px, line-height at 52px. Dropping down by 6 for each.</p>
+				<br><br>
+				I can also add some helper classes (more below) to enable font-weights or other text styles.
+			</div>
+		</div>
+	</div>
+</section>
 
-<section>
+<!-- Cards -->
+<section class="buffer-sm">
 	<div class="container">
 		<div class="row">
 			<div class="col-6">
-				<h2 class="up red">Horizontal Scroll Block</h2>
+				<h2 class="up red">Cards</h2>
+				<p class="">A basic card layout to be expanded upon. Can be easily scaled up or down using the above grid columns.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-6">
+				<div class="card center">
+					<h4 class="red">Card 1</h4>
+				</div>
+			</div>
+			<div class="col-6">
+				<div class="card center">
+					<h4 class="red">Card 2</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- Helpers -->
+<section class="helpers buffer-sm">
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				<h2 class="up red">Helper Classes</h2>
+				<p class="">Zero is slightly modular, I've created some helper classes to attach to elements so I can quickly create things like margins, padding or alignments.</p>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-4">
+				<div class="box">
+					<h4>.center</h4>
+					<p>Allows content to be vertically and horizontally aligned.</p>
+				</div>
+			</div>
+			<div class="col-4">
+				<div class="box">
+					<h4>.buffer</h4>
+					<p>Adds a buffer to an element, either sm or lg to create spacing around it.</p></div>
+			</div>
+			<div class="col-4">
+				<div class="box">
+					<h4>.text-{alignment}</h4>
+					<p>Quickly align copy to either left, right or center.</p>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<! -- Others -->
+<section class="buffer-sm">
+	<!-- Scroll -->
+	<div class="container">
+		<div class="row">
+			<div class="col-6">
+				<h2 class="up red">Other: <br><br>Horizontal Scroll Block</h2>
 				<p class="">A simple Flexbox Horizontal Scroll Block. <br>Can be nested in a container or <a
-						href="demos/fullscreen.html" class="
-eb red">fullscreen.</a></p>
+						href="demos/fullscreen.html" class="red">fullscreen.</a></p>
 			</div>
 		</div>
 		<div class="row row-border">
@@ -181,53 +249,20 @@ eb red">fullscreen.</a></p>
 			</div>
 		</div>
 	</div>
-</section>
-
-<! -- Layout -->
-
-<section class="layout">
+	<!-- hover -->
 	<div class="container">
 		<div class="row">
 			<div class="col-6">
-				<h2 class="up red">Layouts</h2>
-				<p class="">Lorem Ipsum</p>
+				<h2 class="up red">Other: <br><br>Hover</h2>
+				<p class="">A basic hover effect with easing to be expanded on for different projects when needed.</p>
 			</div>
 		</div>
 		<div class="row">
-			<div class="col-1"></div>
-			<div class="col-2 layout-1">
-				<div class="card"></div>
-				<p class="layout-1-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-			</div>
-			<div class="col-2 layout-1 push-down">
-				<div class="card"><p class="card-content">margin: 40px 0;</p></div>
-				<p class="layout-1-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-			</div>
-			<div class="col-2 layout-1">
-				<div class="card"></div>
-				<p class="layout-1-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-			</div>
-			<div class="col-2 layout-1 push-down">
-				<div class="card"><p class="card-content">margin: 40px 0;</p></div>
-				<p class="layout-1-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-			</div>
-			<div class="col-2 layout-1">
-				<div class="card"></div>
-				<p class="layout-1-copy">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-			</div>
-			<div class="col-1"></div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div class="col-4 ">
-			</div>
-			<div class="col-8">
-				<div class="box"><div class="content-background"></div></div>
-			</div>
+			<div class="col-3"></div>
+			<div class="col-6 hover"></div>
+			<div class="col-3"></div>
 		</div>
 	</div>
 </section>
 </body>
-
 </html>
