@@ -73,7 +73,7 @@ code {
   padding: 20px; }
 
 .nav-bg {
-  background-color: #C96760; }
+  background-color: #2A3D49; }
 
 .div-me-up {
   display: flex;
@@ -81,7 +81,7 @@ code {
   align-content: center; }
 
 .row-border {
-  border: solid 4px #C96760;
+  border: solid 4px #FA3C2E;
   padding: 10px 2px; }
 
 .bounce {
@@ -205,8 +205,8 @@ code {
   transition: .3s ease-in; }
 
 .logo {
-  width: 10%;
-  height: 10%; }
+  width: 20%;
+  height: 20%; }
 
 h1 {
   font-size: 46px;
@@ -881,7 +881,7 @@ p {
   background-color: #00184F; }
 
 .bg-red {
-  background-color: #C96760; }
+  background-color: #FA3C2E; }
 
 .bg-white {
   background-color: #FFFFFF; }
@@ -900,7 +900,7 @@ p {
   color: #00184F; }
 
 .red {
-  color: #C96760; }
+  color: #FA3C2E; }
 
 .white {
   color: #FFFFFF; }
